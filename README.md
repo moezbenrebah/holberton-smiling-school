@@ -1,6 +1,6 @@
 # Implement a design with bootstrap
 
-### Another implement a design from scratch
+## Another implement a design from scratch
 
 
 In this project, we will implement <b>3 web pages</b> with <em>Bootstrap</em>. You will use all HTML/CSS/Accessibility/Responsive design/Bootstrap knowledges that you learned previously.
@@ -20,8 +20,8 @@ This webpage has been designed by Nicolas Philippot, UI/UX designer. You can fin
 
 ## Requirements
 
-    - You have to use Bootstrap
-    - Your styles.css must be as small as you can - <b>you must use as much as you can Bootstrap classes</b>
+- You have to use Bootstrap
+- Your styles.css must be as small as you can - <b>you must use as much as you can Bootstrap classes</b>
 
 ## Imports
 
