@@ -504,19 +504,35 @@ div.w-100 {
   .subText {
     margin: 50px;
   }
+  
+  li.flex-fill {
+    flex: 1 1 50% !important;
+  }
 }
 
 @media (min-width: 482px) and (max-width: 501px) {
   .title {
     font-size: 75px;
-}
+  }
   .logo {
     margin-left: 30px;
     margin-top: 20px;
-}
+  }
+  li.flex-fill {
+    flex: 1 1 50% !important;
+  }
 }
 
-@media (min-width: 502px) and (max-width: 768px) {
+@media (min-width: 503px) and (max-width: 575px) {
+  .title {
+    font-size: 90px;
+  }
+  li.flex-fill {
+    flex: 1 1 50% !important;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 768px) {
   h1.title {
     font-size: 80px;
   }
