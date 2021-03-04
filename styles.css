@@ -371,6 +371,7 @@ button:active, button:hover {
   --font: Source Sans Pro;
   --fill-color: #C271FF;
   --color-white: #FFFFFF;
+  --carousel-color: #C271FF;
 }
 
 html, body {
@@ -466,7 +467,82 @@ div.w-100 {
   margin: auto;
 }
 
-@media (max-width: 481px) {
+/* ==== Carousel section ==== */
+
+.carousel-quote {
+  background-color: var(--carousel-color);
+  margin: auto;
+  height: auto;
+  max-width: 100%;
+}
+
+.carousel-item{
+  height: 392px;
+  padding-right: 50px;
+  padding-left: 140px;
+  padding-top: 110px;
+}
+
+.col-xl-9 {
+  margin-left: 20px;
+  padding-top: 10px;
+  font-size: large;
+}
+
+.col-xl-9 > p {
+  margin-bottom: 40px;
+}
+
+.carousel-control-prev, .carousel-control-next {
+  margin: 0;
+  padding: 0;
+}
+
+.footer {
+  line-height: 15px;
+}
+
+@media (min-width: 375px) and (max-width: 480px) {
+  button.navbar-toggler {
+    position: absolute;
+    left: 0;
+  }
+
+  .navbar-brand {
+    position: absolute;
+    left: 90px;
+    top: 0px;
+  }
+
+  h1.title {
+    font-weight: large;
+    font-size: 55px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+
+  .navbar-nav {
+    position: absolute;
+    top: 100px;
+    left: 140px;
+  }
+
+  .carousel-img img.rounded-circle {
+    margin-right: 0px;
+    margin-left: -60px;
+    margin-bottom: -100px;
+  }
+
+  blockquote.col-xl-9 {
+    margin-top: 100px;
+  }
+
+  .carousel-control-prev img, .carousel-control-next img {
+    margin-top: -80px;
+  }
+}
+
+@media (max-width: 482px) {
   .centerText {
     margin-top: 350px;
   }
@@ -508,9 +584,46 @@ div.w-100 {
   li.flex-fill {
     flex: 1 1 50% !important;
   }
+
+  .carousel-quote {
+    height: auto;
+    margin: auto;
+    max-width: 100%;
+  }
+
+  .carousel-item {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    max-width: 100%;
+    padding: 0;
+  }
+
+  .carousel-img {
+    margin-left: 150px;
+    margin-top: 70px;
+    margin-bottom: 30px;
+    padding: 0;
+  }
+
+  .col-xl-9 {
+    margin-left: 0px;
+    margin-bottom: 80px;
+  }
+
+  .col-xl-9 > p {
+    margin-bottom: 40px;
+  }
+  .carousel-control-prev, .carousel-control-next {
+    padding-bottom: 140px;
+  }
+
+  .footer {
+    line-height: 15px;
+  }
 }
 
-@media (min-width: 482px) and (max-width: 501px) {
+@media (min-width: 482px) and (max-width: 502px) {
   .title {
     font-size: 75px;
   }
@@ -518,17 +631,55 @@ div.w-100 {
     margin-left: 30px;
     margin-top: 20px;
   }
+  
   li.flex-fill {
     flex: 1 1 50% !important;
   }
+  
+   blockquote.col-xl-9 {
+    position: absolute;
+    margin-left: -150px;
+    margin-top: 180px;
+    height: auto;
+    max-width: 100%;
+  }
 }
 
-@media (min-width: 503px) and (max-width: 575px) {
+@media (min-width: 502px) and (max-width: 575px) {
   .title {
     font-size: 90px;
   }
   li.flex-fill {
     flex: 1 1 50% !important;
+  }
+  
+  .carousel-item {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    max-width: 100%;
+    padding: 0;
+  }
+  
+  .carousel-img {
+    margin-left: 150px;
+    margin-top: 90px;
+    margin-bottom: 30px;
+    padding: 0;
+  }
+  
+  blockquote.col-xl-9 {
+    margin-left: 0px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    height: 100%;
+  }
+
+  .col-xl-9 > p, em {
+    margin-bottom: 0px;
+  }
+  .carousel-control-prev, .carousel-control-next {
+    padding-bottom: 200px;
   }
 }
 
@@ -539,6 +690,43 @@ div.w-100 {
   .logo {
     margin-left: 40px;
     margin-top: 25px;
+  }
+  
+  .carousel-quote {
+    height: auto;
+    margin: auto;
+    max-width: 100%;
+  }
+
+  .carousel-item {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    max-width: 100%;
+    padding: 0;
+  }
+
+  .carousel-img {
+    margin-left: 150px;
+    margin-top: 70px;
+    margin-bottom: 30px;
+    padding: 0;
+  }
+
+  .col-xl-9 {
+    margin-left: 0px;
+    margin-bottom: 80px;
+  }
+
+  .col-xl-9 > p {
+    margin-bottom: 40px;
+  }
+  .carousel-control-prev, .carousel-control-next {
+    padding-bottom: 140px;
+  }
+
+  .footer {
+    line-height: 15px;
   }
 }
 

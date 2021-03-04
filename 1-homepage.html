@@ -95,17 +95,29 @@
             </div>
         </header>
         <!-- carousel section -->
-        <div>
-            <img src="images/arrow_white_left.png" alt="" width="150" height="150" class="rounded-circle">
-            <img src="images/profile_5.jpg" alt="" width="150" height="150" class="rounded-circle">
-            <blockquote>
-                <p>
-                    &laquo; Those tutorials are concise are concise and go straight to the point. I can't think of a better place to learn smiling. And it's so fun!
-                    <cite>Person Name</cite>
-                </p>
-                <p>weather persenter</p>
-            </blockquote>
-            <img src="images/arrow_white_right.png" alt="" width="150" height="150" class="rounded-circle">
-        </div>
+        <section class="carousel-quote">
+            <div id="carouselExampleControls" class="carousel slide container-md" data-ride="carousel">
+                <div class="carousel-inner text-white">
+                    <div class="carousel-item active d-flex">
+                        <div class="carousel-img">
+                            <img src="images/profile_5.jpg" alt="" width="160" height="160" class="rounded-circle">
+                        </div>
+                        <blockquote class="col-xl-9">
+                            <p>&laquo; Those tutorials are concise and go straight to the point. I can't think of a better place to learn smiling. And it's so fun!</p>
+                            <footer class="footer">    
+                                <p><strong>Persone Name</strong></p>
+                                <em>weather presenter</em>
+                            </footer>
+                        </blockquote>
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                    <img src="images/arrow_white_left.png" alt="" width="29" height="62">
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                    <img src="images/arrow_white_right.png" alt="" width="29" height="62">
+                </a>
+            </div>
+        </section>
     </body>
 </html>
