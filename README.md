@@ -1,39 +1,61 @@
-# Implement a design with bootstrap
-
-## Another implement a design from scratch
-
-
-In this project, we will implement <b>3 web pages</b> with <em>Bootstrap</em>. You will use all HTML/CSS/Accessibility/Responsive design/Bootstrap knowledges that you learned previously.
-
-You won’t have a lot of instruction, you are free to implement it the way that you want - the objective is simple: Have fully functional web pages that look the same as the designer file.
-
-
-<b><em>Here the final result:</b></em>
-
-![](https://i.imgur.com/MOEH9hW.jpg)
+# Holberton Smiling School (Bootstrap project)
 
 <br>
 
-This webpage has been designed by Nicolas Philippot, UI/UX designer. You can find final screens [here](https://intranet-projects-files.s3.amazonaws.com/holbertonschool-webstack/623/Archive.zip)
+<strong>Another implement a design from scratch after this previous [one](https://github.com/Boul3ez85/holberton-headphones)</strong>.
 
 <br>
 
-## Requirements
+In this project, we will implement <b>3 web pages</b> with <em>Bootstrap</em>. Using <strong>HTML</strong> <strong>CSS</strong> <strong>Accessibility</strong> <strong>Responsive design</strong> <strong>Bootstrap</strong> knowledges that I learned previously in the holberton front-end from the full-stack web development specialization.
+
+<br>
+
+The project is guided with a lot of instruction, but there are always free to implement ways to build the website sections.
+
+<br>
+
+The <strong>objective</strong> is simple: Have fully functional web pages that look the same as the designer file.
+
+<br>
+
+<b><em>You can download the final design from this:  [link](https://intranet-projects-files.s3.amazonaws.com/holbertonschool-webstack/623/Archive.zip)</em></b>
+
+<br>
+
+### Requirements
 
 - You have to use Bootstrap
 - Your styles.css must be as small as you can - <b>you must use as much as you can Bootstrap classes</b>
 
-## Imports
+<br>
 
-For this project, you will need: fonts from Google, JQuery, Bootstrap CSS/JS
+These group of web pages were coded from scratch with the help of the Boostrap Framework and based on some design models given on Figma check them here:
 
-```
-<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css?family=Coiny&display=swap" rel="stylesheet">
+[Figma Homepage](https://www.figma.com/file/QYQqMYbdpAHL5xTclwJKSI/Homepage)
 
-<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+[Figma Pricing](https://www.figma.com/file/KLAI53jdYpfFNEy0O79ymB/Pricing)
 
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-```
+[Figma Courses](https://www.figma.com/file/ivg3abH1HLmMayBgjGg1Qf/Courses)
+
+<br><br>
+
+The design screenshots for Desktop, Tablet, and Mobile are below:
+
+# Homepage
+
+| **Desktop (Width: 1440 px)**                              | **Tablet (Width: 768 px)**                              | **Mobile (Width: 576 px)**                              |
+| --------------------------------------------------------- | ------------------------------------------------------- | ------------------------------------------------------- |
+| ![Desktop](https://i.ibb.co/pKGgC0J/Homepage-Desktop.png) | ![Tablet](https://i.ibb.co/6XBLwf9/Homepage-Tablet.png) | ![Mobile](https://i.ibb.co/NVBK21F/Homepage-Mobile.png) |
+
+# Pricing
+
+| **Desktop (Width: 1440 px)**                             | **Tablet (Width: 768 px)**                             | **Mobile (Width: 576 px)**                             |
+| -------------------------------------------------------- | ------------------------------------------------------ | ------------------------------------------------------ |
+| ![Desktop](https://i.ibb.co/RvSJ2YS/Pricing-Desktop.png) | ![Tablet](https://i.ibb.co/Gkvsf0Y/Pricing-Tablet.png) | ![Mobile](https://i.ibb.co/6RwmYck/Pricing-Mobile.png) |
+
+# Courses
+
+| **Desktop (Width: 1440 px)**                             | **Tablet (Width: 768 px)**                             | **Mobile (Width: 576 px)**                             |
+| -------------------------------------------------------- | ------------------------------------------------------ | ------------------------------------------------------ |
+| ![Desktop](https://i.ibb.co/y51S3HX/Courses-Desktop.png) | ![Tablet](https://i.ibb.co/28qK1g0/Courses-Tablet.png) | ![Mobile](https://i.ibb.co/f8zNgkx/Courses-Mobile.png) |
+
